@@ -1,0 +1,150 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-page {
+    width: 100%;
+    height: 863px;
+    background-image: url("./src/images/main-bgd.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.what-we-do {
+    width: 100%;
+    height: 940px;
+    background-image: url("./src/images/what_we_do_bgd.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    height: 75px;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-logo {
+    width: 120px;
+    height: 30px;
+    margin-left: 300px;
+}
+
+.header-nav__li {
+    margin-left: 45px;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+.header-nav__li:first-child {
+    margin-left: 450px;
+}
+
+.header-nav__li-btn {
+    font-weight: 500;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-transition: 0.2s all;
+}
+
+.header-nav__li:hover {
+    transition: 0.2s all;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.multilanguages-arrow {
+    position: relative;
+    top: -2px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.language-options {
+    display: none;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 60px;
+}
+
+.header-nav__li button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.header-nav__li:hover .language-options {
+    display: block;
+    opacity: 1;
+}
+
+
+.multilanguages:hover .multilanguages-arrow {
+    transform: rotate(180deg);
+}
+
+.main-page__content {
+    padding-top: 300px;
+    margin-left: 300px;
+}
+
+.main-page__content-h1 {
+    font-size: 35px;
+    color: #e7b901;
+    font-weight: 700;
+}
+
+.main-page__content-writer {
+    margin-top: 10px;
+    position: relative;
+    left: -20px;
+    font-size: 75px;
+    font-weight: 600;
+    color: #252758;
+}
+
+/* CSS для анимации курсора */
+.main-page__content-writer::after {
+    content: '|';
+    margin-left: 5px;
+    color: #7129DA;
+}
+
+.main-page__content-p {
+    font-size: 16px;
+    width: 457px;
+    margin-top: 40px;
+    color: #252758;
+}
+
+.main-page__content-btn {
+    display: inline;
+    background: rgb(250,202,4);
+    background: linear-gradient(148deg, rgba(250,202,4,1) 0%, rgba(240,158,20,1) 100%);
+    padding: 15px;
+    border-radius: 50px;
+    padding-inline: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    top: 100px;
+}
+
+.main-page-img {
+    display: inline;
+    width: 760px;
+    height: 528px;
+    margin-top: 170px;
+    margin-left: 250px;
+}
+

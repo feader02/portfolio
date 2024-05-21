@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Feader</title>
 </head>
 <body>
-    
+    <div>
+        <header class="header">
+            <img src="./src/images/header_logo.png" alt="header-logo" class="header-logo" />
+            <ul class="header-nav">
+                <li class="header-nav__li translatable" data-lang="About">About</li>
+                <li class="header-nav__li translatable" data-lang="Services">Services</li>
+                <li class="header-nav__li translatable" data-lang="Our Works">Our Works</li>
+                <li class="header-nav__li translatable" data-lang="Contact Us">Contact Us</li>
+                <li class="header-nav__li multilanguages">
+                    <button id="current-lang">En</button>
+                    <img src="./src/images/language_arrow.png" alt="" class="multilanguages-arrow" />
+                    <div class="language-options">
+                        <button id="switch-lang">Ua</button>
+                    </div>
+                </li>
+                <li class="header-nav__li header-nav__li-btn translatable" data-lang="Request a quote">Request a quote</li>
+            </ul> 
+        </header>
+        <main class="main">
+            <section class="main-page">
+                <div class="main-page__content">
+                    <h1 class="main-page__content-h1 translatable" data-lang="main-page-h1">We are all about</h1>
+                    <article class="main-page__content-writer translatable"></article>
+                    <p class="main-page__content-p translatable" data-lang="main-page-p">Boosting businesses with effective websites and digital
+                        marketing</p>
+                    <article class="main-page__content-btn translatable" data-lang="Request a quote">
+                        Request a quote
+                    </article>
+                </div>
+                <img src="./src/images/main-picture.png" class="main-page-img" alt="main picture" />
+            </section>
+            <section class="what-we-do">
+
+            </section>
+        </main>
+    </div>
 </body>
+<script src="./js/multilingual.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/writingSystem.js"></script>
 </html>

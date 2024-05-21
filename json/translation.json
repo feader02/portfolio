@@ -1,0 +1,20 @@
+{
+    "En": {
+        "About": "About",
+        "Services": "Services",
+        "Our Works": "Our Works",
+        "Contact Us": "Contact Us",
+        "Request a quote": "Request a quote",
+        "main-page-h1": "We are all about",
+        "main-page-p": "Boosting businesses with effective websites and digital marketing"
+    },
+    "Ua": {
+        "About": "Про нас",
+        "Services": "Послуги",
+        "Our Works": "Наші роботи",
+        "Contact Us": "Контакти",
+        "Request a quote": "Запит ціни",
+        "main-page-h1": "Ми це",
+        "main-page-p": "Розвиток бізнесу за допомогою ефективних веб-сайтів і цифрового маркетингу"
+    }
+}
