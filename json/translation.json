@@ -6,7 +6,10 @@
         "Contact Us": "Contact Us",
         "Request a quote": "Request a quote",
         "main-page-h1": "We are all about",
-        "main-page-p": "Boosting businesses with effective websites and digital marketing"
+        "main-page-p": "Boosting businesses with effective websites and digital marketing",
+        "what-we-do__container-h1" : "Here Is What We Do",
+        "grid-1-h1" : "Web Development",
+        "grid-1-text" : "The website development process takes no more than 10 days. We create clear and easy-to-use websites for any niche."
     },
     "Ua": {
         "About": "Про нас",
@@ -15,6 +18,9 @@
         "Contact Us": "Контакти",
         "Request a quote": "Запит ціни",
         "main-page-h1": "Ми це",
-        "main-page-p": "Розвиток бізнесу за допомогою ефективних веб-сайтів і цифрового маркетингу"
+        "main-page-p": "Розвиток бізнесу за допомогою ефективних веб-сайтів і цифрового маркетингу",
+        "what-we-do__container-h1" : "Ось що ми робимо",
+        "grid-1-h1" : "Веб-розробка",
+        "grid-1-text" : "Процес розробки сайту займає не більше 10 днів. Створюємо чітко і прості у використанні веб-сайти для будь-якої ніші."
     }
 }
