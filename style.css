@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
+    color: #252758;
 }
 
 .main-page {
@@ -12,8 +13,8 @@ body {
 
 .what-we-do {
     width: 100%;
-    height: 940px;
-    background-image: url("./src/images/what_we_do_bgd.png");
+    height: 1030px;
+    background-image: url("./src/images/what_we_do_bgd.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -55,7 +56,6 @@ body {
 
 .header-nav__li:hover {
     transition: 0.2s all;
-    opacity: 0.7;
     cursor: pointer;
 }
 
@@ -88,6 +88,14 @@ body {
     opacity: 1;
 }
 
+.switch-lang, .current-lang {
+    -webkit-transition: 0.4s all;
+}
+
+.switch-lang:hover, .current-lang:hover, .header-nav__li:nth-child(1):hover, .header-nav__li:nth-child(2):hover, .header-nav__li:nth-child(3):hover, .header-nav__li:nth-child(4):hover, .header-nav__li:nth-child(6):hover {
+    text-shadow: 0 0 10px #ffffff;
+    transition: 0.4s all;
+}
 
 .multilanguages:hover .multilanguages-arrow {
     transform: rotate(180deg);
@@ -99,6 +107,7 @@ body {
 }
 
 .main-page__content-h1 {
+    font-family: 'Lato', sans-serif;
     font-size: 35px;
     color: #e7b901;
     font-weight: 700;
@@ -152,14 +161,16 @@ body {
     padding-top: 34px;
     padding-inline: 375px;
 }
+
 .what-we-do__container-h1 {
+    font-family: 'Lato', sans-serif;
     font-size: 46px;
     color: #ffffff;
-    font-family: Nunito;
     font-weight: 700;
-    width: 441px;
+    width: 457px;
     margin: 0 auto;
 }
+
 .gtid-container {
     margin-top: 50px;
     width: 1170px;
@@ -167,24 +178,27 @@ body {
     grid-template-columns: 370px 370px 370px;
     gap: 30px;
 }
+
 .grid-1 {
     width: 370px;
     height: 322px;
     background-color: #ffffff;
     text-align: center;
 }
+
 .grid-1-img {
     width: 100px;
     height: 100px;
     margin-top: 30px;
 }
+
 .grid-1-h1 {
     color: #252758;
     font-size: 23px;
-    font-family: nunito;
     font-weight: 700;
     margin-top: 20px;
 }
+
 .grid-1-text {
     padding-top: 25px;
     width: 298px;
@@ -192,4 +206,256 @@ body {
     line-height: 27.2px;
     font-size: 16px;
     color: #5A5B60;
+}
+
+.about-us {
+    width: 100%;
+    height: 650px;
+    background-image: url("./src/images/about_us_bgd.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.about-us__img {
+    width: 570px;
+    height: 529px;
+    margin-left: 300px;
+}
+
+.about-us__content {
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 570px;
+}
+
+.about-us__content-h1 {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-us__content-h1 p {
+    margin-left: 8px;
+    color: #7129DA;
+}
+
+.about-us__content-p1 {
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-us__content-p2 {
+    margin-top: 40px;
+    color: #5A5B60;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.about-us__content-points {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.about-us__content-points span {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.about-us__content-point {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.our-works {
+    width: 100%;
+    height: 638px;
+    background-image: url("./src/images/our_works_bgd.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.our-works-h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    width: 255px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.our-works-p {
+    width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    line-height: 25px;
+    color: #5A5B60;
+    font-size: 16px;
+}
+
+.our-projects {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-project {
+    margin-left: 20px;
+}
+
+.how-we-work {
+    width: 100%;
+    height: 1450px;
+    background-image: url("./src/images/how_we_work_bgd.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.how-we-work__h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 400px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.how-we-work__points {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.how-we-work__point {
+    width: 270px;
+    height: 350px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.how-we-work__point:first-child {
+    margin-left: 0;
+}
+
+.how-we-work__point-img, .how-we-work__point-h1 {
+    position: relative;
+    left: -5px;
+}
+
+.how-we-work__point-img {
+    margin-top: 40px;
+}
+
+.how-we-work__point-h1 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.how-we-work__point-h1 span {
+    color: #7129DA;
+}
+
+.how-we-work__point-p {
+    color: #5A5B60;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.ready-website {
+    width: 100%;
+    height: 500px;
+    background-image: url("./src/images/ready-website_bgd.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.ready-website__content {
+    margin-left: 300px;
+}
+
+.ready-website__content-h1 {
+    font-size: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    width: 500px;
+    line-height: 55px;
+}
+
+.ready-website__content-h1 span {
+    color: #7129DA;
+}
+
+.ready-website__content-p {
+    width: 650px;
+    line-height: 22px;
+    margin-top: 50px;
+    font-size: 16px;
+    color: #5A5B60;
+}
+
+.ready-website__img {
+    position: relative;
+    top: -100px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+}
+
+.footer-top-content {
+    display: flex;
+}
+
+.footer-top-content article {
+    margin-top: 35px;
+}
+
+.footer-top-content__p {
+    margin-top: 10px;
+}
+
+.footer-nav_ul {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-nav_li {
+    margin-left: 45px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-nav_li:first-child {
+    margin-left: 535px;
+}
+
+.footer-bottom-content {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-bottom-content-p2 {
+    position: absolute;
+    right: 350px;
+}
+
+.footer-top-content, .footer-bottom-content {
+    margin-left: 300px;
 }

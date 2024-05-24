@@ -9,7 +9,16 @@
         "main-page-p": "Boosting businesses with effective websites and digital marketing",
         "what-we-do__container-h1" : "Here Is What We Do",
         "grid-1-h1" : "Web Development",
-        "grid-1-text" : "The website development process takes no more than 10 days. We create clear and easy-to-use websites for any niche."
+        "grid-1-text" : "The website development process takes no more than 10 days. We create clear and easy-to-use websites for any niche.",
+        "grid-2-h1": "Web Design",
+        "grid-2-text": "We use fresh design approaches and best practices to present your business, products or services at their best.",
+        "grid-3-h1": "Content Management",
+        "grid-3-text": "We can create any content for you, from graphics to text, and manage it effectively throughout the site, social media, etc.",
+        "grid-4-h1": "HTTP Servers",
+        "grid-4-text": "HTTP Servers manage web requests and responses, ensuring efficient and secure delivery of web content.",
+        "grid-5-text": "90-100% in page speed tests and all the needed tools and technologies for successful search engine optimization.",
+        "grid-6-h1": "Development API",
+        "grid-6-text": "Development APIs enable integration and interaction between software applications, enhancing functionality and connectivity."
     },
     "Ua": {
         "About": "Про нас",
@@ -21,6 +30,15 @@
         "main-page-p": "Розвиток бізнесу за допомогою ефективних веб-сайтів і цифрового маркетингу",
         "what-we-do__container-h1" : "Ось що ми робимо",
         "grid-1-h1" : "Веб-розробка",
-        "grid-1-text" : "Процес розробки сайту займає не більше 10 днів. Створюємо чітко і прості у використанні веб-сайти для будь-якої ніші."
+        "grid-1-text" : "Процес розробки сайту займає не більше 10 днів. Створюємо чітко і прості у використанні веб-сайти для будь-якої ніші.",
+        "grid-2-h1": "Веб-дизайн",
+        "grid-2-text": "Ми використовуємо сучасні підходи до дизайну та кращі методики, щоб представити ваш бізнес, продукти чи послуги в найкращому світлі.",
+        "grid-3-h1": "Управління контентом",
+        "grid-3-text": "Ми можемо створити будь-який контент для вас, від графіки до тексту, і ефективно ним керувати на сайті, у соціальних мережах тощо.",
+        "grid-4-h1": "HTTP-сервери",
+        "grid-4-text": "HTTP-сервери керують веб-запитами та відповідями, забезпечуючи ефективну та безпечну доставку веб-контенту.",
+        "grid-5-text": "90-100% у тестах швидкості сторінки та всі необхідні інструменти та технології для успішної оптимізації під пошукові системи.",
+        "grid-6-h1": "API розробки",
+        "grid-6-text": "API розробки дозволяють інтеграцію та взаємодію між програмними додатками, покращуючи функціональність та зв’язок."
     }
 }

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(response => response.json())
             .then(translationsData => {
                 translations = translationsData;
-                changeLanguage(lang, true); // Добавляем параметр для инициализации
+                changeLanguage(lang, true);
             })
             .catch(error => console.error('Error to download translations:', error));
     }
@@ -78,5 +78,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    loadTranslations(currentLanguage); // Загружаем переводы и устанавливаем начальный язык
+    loadTranslations(currentLanguage);
 });

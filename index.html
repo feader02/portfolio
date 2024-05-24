@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.cdnfonts.com/css/nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Feader</title>
@@ -21,10 +21,10 @@
                 <li class="header-nav__li translatable" data-lang="Our Works">Our Works</li>
                 <li class="header-nav__li translatable" data-lang="Contact Us">Contact Us</li>
                 <li class="header-nav__li multilanguages">
-                    <button id="current-lang">En</button>
+                    <button class="current-lang" id="current-lang">En</button>
                     <img src="./src/images/language_arrow.png" alt="" class="multilanguages-arrow" />
                     <div class="language-options">
-                        <button id="switch-lang">Ua</button>
+                        <button class="switch-lang" id="switch-lang">Ua</button>
                     </div>
                 </li>
                 <li class="header-nav__li header-nav__li-btn translatable" data-lang="Request a quote">Request a quote</li>
@@ -62,10 +62,10 @@
                         </div>
                         <div class="grid-1">
                             <img class="grid-1-img" src="src/images/grid-2-img.png" alt="img">
-                            <h1 class="grid-1-h1">
+                            <h1 class="grid-1-h1 translatable" data-lang="grid-2-h1">
                                 Web Design
                             </h1>
-                            <p class="grid-1-text">
+                            <p class="grid-1-text translatable" data-lang="grid-2-text">
                                 We use fresh design approaches and
                                 best practices to present your business,
                                 products or services at their best. 
@@ -73,21 +73,21 @@
                         </div>
                         <div class="grid-1">
                             <img class="grid-1-img" src="src/images/grid-3-img.png" alt="img">
-                            <h1 class="grid-1-h1">
+                            <h1 class="grid-1-h1 translatable" data-lang="grid-3-h1">
                                 Content Management
                             </h1>
-                            <p class="grid-1-text">
+                            <p class="grid-1-text translatable" data-lang="grid-3-text">
                                 We can create any content for you, from
                                 graphics to text, and manage it effectively
                                 throughout the site, social media, etc.
                             </p>
                         </div>
-                        <div class="grid-1">
+                        <div class="grid-1" >
                             <img class="grid-1-img" src="src/images/grid-4-img.png" alt="img">
-                            <h1 class="grid-1-h1">
+                            <h1 class="grid-1-h1 translatable" data-lang="grid-4-h1">
                                 HTTP Servers
                             </h1>
-                            <p class="grid-1-text">
+                            <p class="grid-1-text translatable" data-lang="grid-4-text">
                                 HTTP Servers manage web requests and responses, ensuring efficient and secure delivery of web content.
                             </p>
                         </div>
@@ -96,7 +96,7 @@
                             <h1 class="grid-1-h1">
                                 SEO
                             </h1>
-                            <p class="grid-1-text">
+                            <p class="grid-1-text translatable" data-lang="grid-5-text">
                                 90-100% in page speed tests and all the
                                 needed tools and technologies for
                                 successful search engine optimization.
@@ -104,17 +104,115 @@
                         </div>
                         <div class="grid-1">
                             <img class="grid-1-img" src="src/images/grid-6-img.png" alt="img">
-                            <h1 class="grid-1-h1">
+                            <h1 class="grid-1-h1 translatable" data-lang="grid-6-h1">
                                 Development API
                             </h1>
-                            <p class="grid-1-text">
+                            <p class="grid-1-text translatable" data-lang="grid-6-text">
                                 Development APIs enable integration and interaction between software applications, enhancing functionality and connectivity.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
+            <section class="about-us">
+                <img src="./src/images/about_us_img.png" alt="" class="about-us__img"/>
+                <div class="about-us__content">
+                    <h1 class="about-us__content-h1">About <p>Us</p></h1>
+                    <p class="about-us__content-p1">
+                        We turn web development and design into an effective solution for your business needs
+                    </p>
+                    <p class="about-us__content-p2">
+                        Thanks to our wide experience and technological possibilities, we can develop a bright, effective website with modern design for you. In addition, we provide all related digital marketing services.
+                        <br><br>
+                        All you need is to tell us about your business, products and services. Leave the rest to our specialists. Working with us, you get:
+                    </p>
+                    <article class="about-us__content-points">
+                        <span>
+                            <img src="./src/images/about_us_agree.png" alt="" />
+                            <p class="about-us__content-point">All settings on a turnkey basis</p>
+                        </span>
+                        <span>
+                            <img src="./src/images/about_us_agree.png" alt="" />
+                            <p class="about-us__content-point">Stunning websites in 10 days</p>
+                        </span>
+                        <span>
+                            <img src="./src/images/about_us_agree.png" alt="" />
+                            <p class="about-us__content-point">After-sales support 24/7</p>
+                        </span>
+                    </article>
+                </div>
+            </section>
+            <section class="our-works">
+                <h1 class="our-works-h1">Our Works</h1>
+                <p class="our-works-p">We offer our customers fancy websites built on modern technologies and best practices. Our extensive experience allows us to find effective solutions for any niche, and our portfolio is an excellent proof of this. Look at the examples below, each one was created within 10 days and has anything a business might need for further development.</p>
+                <div class="our-projects">
+                    <a href="#">
+                        <img src="./src/images/project-1.jpg" alt="" class="our-project" />
+                    </a>
+                    <a href="#">
+                        <img src="./src/images/project-1.jpg" alt="" class="our-project" />
+                    </a>
+                </div>
+            </section>
+            <section class="how-we-work">
+                <h1 class="how-we-work__h1">How We Work</h1>
+                <div class="how-we-work__points">
+                    <article class="how-we-work__point">
+                        <img src="./src/images/how_we_work_img1.png" alt="" class="how-we-work__point-img" />
+                        <h1 class="how-we-work__point-h1"><span>1. </span>Discussion</h1>
+                        <p class="how-we-work__point-p">We discuss your business specialities and preferences</p>
+                    </article>
+                    <article class="how-we-work__point">
+                        <img src="./src/images/how_we_work_img2.png" alt="" class="how-we-work__point-img" />
+                        <h1 class="how-we-work__point-h1"><span>2. </span>Creation</h1>
+                        <p class="how-we-work__point-p">Our team creates a prototype according to the specification</p>
+                    </article>
+                    <article class="how-we-work__point">
+                        <img src="./src/images/how_we_work_img3.png" alt="" class="how-we-work__point-img" />
+                        <h1 class="how-we-work__point-h1"><span>3. </span>Review</h1>
+                        <p class="how-we-work__point-p">You review the prototype, we make corrections</p>
+                    </article>
+                    <article class="how-we-work__point">
+                        <img src="./src/images/how_we_work_img4.png" alt="" class="how-we-work__point-img" />
+                        <h1 class="how-we-work__point-h1"><span>4. </span>Ready Website</h1>
+                        <p class="how-we-work__point-p">Within 10 days, you receive a ready website</p>
+                    </article>
+                </div>
+            </section>
+            <section class="ready-website">
+                <div class="ready-website__content">
+                    <h1 class="ready-website__content-h1">Amazing Website Ready <span>in 10 Days</span></h1>
+                    <p class="ready-website__content-p">Thanks to the use of the most modern technologies in development and streamlined flow, we can provide you with a ready, customized and effective website of any complexity in a maximum of 10 days at a minimal cost.</p>
+                </div>
+                <img src="./src/images/ready-website_img.jpg" alt="" class="ready-website__img"  />
+            </section>
         </main>
+        <footer class="footer">
+            <div class="footer-top-content">
+                <article>
+                    <img src="./src/images/footer-logo.png" alt="" />
+                    <p class="footer-top-content__p">Web development, design and more</p>
+                </article>
+                <ul class="footer-nav_ul">
+                    <li class="footer-nav_li">
+                        About
+                    </li>
+                    <li class="footer-nav_li">
+                        Services
+                    </li>
+                    <li class="footer-nav_li">
+                        Our Works
+                    </li>
+                    <li class="footer-nav_li">
+                        Contact Us
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom-content">
+                <p class="footer-bottom-content-p1">© Created by feader</p>
+                <p class="footer-bottom-content-p2">All rights Reserved</p>
+            </div>
+        </footer>
     </div>
 </body>
 <script src="./js/multilingual.js"></script>
