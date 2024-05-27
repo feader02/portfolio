@@ -18,7 +18,32 @@
         "grid-4-text": "HTTP Servers manage web requests and responses, ensuring efficient and secure delivery of web content.",
         "grid-5-text": "90-100% in page speed tests and all the needed tools and technologies for successful search engine optimization.",
         "grid-6-h1": "Development API",
-        "grid-6-text": "Development APIs enable integration and interaction between software applications, enhancing functionality and connectivity."
+        "grid-6-text": "Development APIs enable integration and interaction between software applications, enhancing functionality and connectivity.",
+        "About Us": "About Us",
+        "about-us__content-p1": "We turn web development and design into an effective solution for your business needs",
+        "about-us__content-p2": "Thanks to our wide experience and technological possibilities, we can develop a bright, effective website with modern design for you. In addition, we provide all related digital marketing services.",
+        "about-us__content-p2-2": "All you need is to tell us about your business, products and services. Leave the rest to our specialists. Working with us, you get:",
+        "about-us__content-point-1": "All settings on a turnkey basis",
+        "about-us__content-point-2": "Stunning websites in 10 days",
+        "about-us__content-point-3": "After-sales support 24/7",
+        "our-works-h1": "Our Works",
+        "our-works-p": "We offer our customers fancy websites built on modern technologies and best practices. Our extensive experience allows us to find effective solutions for any niche, and our portfolio is an excellent proof of this. Look at the examples below, each one was created within 10 days and has anything a business might need for further development.",
+        "how-we-work__h1": "How We Work",
+        "how-we-work__point-h1-1": "Discussion",
+        "how-we-work__point-p-1": "We discuss your business specialities and preferences",
+        "how-we-work__point-h1-2": "Creation",
+        "how-we-work__point-p-2": "Our team creates a prototype according to the specification",
+        "how-we-work__point-h1-3": "Review",
+        "how-we-work__point-p-3": "You review the prototype, we make corrections",
+        "how-we-work__point-h1-4": "Ready Website",
+        "how-we-work__point-p-4": "Within 10 days, you receive a ready website",
+        "ready-website__content-h1": "Amazing Website Ready in 10 Days",
+        "ready-website__content-p": "Thanks to the use of the most modern technologies in development and streamlined flow, we can provide you with a ready, customized and effective website of any complexity in a maximum of 10 days at a minimal cost."
+
+
+
+
+
     },
     "Ua": {
         "About": "Про нас",
@@ -39,6 +64,28 @@
         "grid-4-text": "HTTP-сервери керують веб-запитами та відповідями, забезпечуючи ефективну та безпечну доставку веб-контенту.",
         "grid-5-text": "90-100% у тестах швидкості сторінки та всі необхідні інструменти та технології для успішної оптимізації під пошукові системи.",
         "grid-6-h1": "API розробки",
-        "grid-6-text": "API розробки дозволяють інтеграцію та взаємодію між програмними додатками, покращуючи функціональність та зв’язок."
+        "grid-6-text": "API розробки дозволяють інтеграцію та взаємодію між програмними додатками, покращуючи функціональність та зв’язок.",
+        "About Us": "Про Нас",
+        "about-us__content-p1": "Ми перетворюємо веб-розробку та дизайн на ефективне рішення для потреб вашого бізнесу",
+        "about-us__content-p2": "Завдяки нашому багатому досвіду та технологічним можливостям ми можемо розробити для вас яскравий, ефективний сайт із сучасним дизайном. Крім того, ми надаємо всі пов’язані послуги цифрового маркетингу.",
+        "about-us__content-p2-2": "Все, що вам потрібно, це розповісти нам про свій бізнес, продукти та послуги. Решту залиште нашим спеціалістам. Працюючи з нами, Ви отримуєте:",
+        "about-us__content-point-1": "Всі налаштування під ключ",
+        "about-us__content-point-2": "Цілодобова післяпродажна підтримка. Чудові веб-сайти за 10 днів",
+        "about-us__content-point-3": "Цілодобова післяпродажна підтримка",
+        "our-works-h1": "Наші роботи",
+        "our-works-p": "Ми пропонуємо своїм клієнтам стильні сайти, створені за сучасними технологіями та кращими практиками. Наш великий досвід дозволяє знаходити ефективні рішення для будь-якої ніші, і наше портфоліо є відмінним тому підтвердженням. Подивіться на наведені нижче приклади, кожен був створений протягом 10 днів і містить все, що може знадобитися бізнесу для подальшого розвитку.",
+        "how-we-work__h1": "Як Ми Працюємо",
+        "how-we-work__point-h1-1": "Обговорення",
+        "how-we-work__point-p-1": "Обговорюємо ваші бізнес-спеціальності та вподобання",
+        "how-we-work__point-h1-2": "Створення",
+        "how-we-work__point-p-2": "Наша команда створює прототип відповідно до специфікації",
+        "how-we-work__point-h1-3": "Огляд",
+        "how-we-work__point-p-3": "Ви переглядаєте прототип, ми вносимо правки",
+        "how-we-work__point-h1-4": "Готовий Сайт",
+        "how-we-work__point-p-4": "Протягом 10 днів ви отримуєте готовий сайт",
+        "ready-website__content-h1": "Чудовий веб-сайт готовий за 10 днів",
+        "ready-website__content-p": "Завдяки використанню найсучасніших технологій у розробці та налагодженій роботі, ми можемо надати вам готовий, налаштований та ефективний сайт будь-якої складності максимум за 10 днів за мінімальну вартість."
+
+
     }
 }
