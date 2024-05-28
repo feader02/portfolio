@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let translations = {};
 
     function loadTranslations(lang) {
-        fetch('/json/translation.json')
+        fetch('/static/json/translation.json')
             .then(response => response.json())
             .then(translationsData => {
                 translations = translationsData;

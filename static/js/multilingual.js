@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentLanguage = 'En';
 
     function loadTranslations(lang) {
-        fetch('/json/translation.json')
+        fetch('/static/json/translation.json')
             .then(response => response.json())
             .then(translations => changeLanguage(lang, translations))
             .catch(error => console.error('Error to download translations:', error));
