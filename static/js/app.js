@@ -19,4 +19,23 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log("Form submitted successfully!");
         }
     });
+
+    function showSuccessMessage() {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('success') && !sessionStorage.getItem('formSubmitted')) {
+            const messageDiv = document.getElementById('success-message');
+            messageDiv.style.display = 'flex';
+            messageDiv.style.alignItems = 'center';
+            setTimeout(() => {
+                messageDiv.style.display = 'none';
+            }, 3000);
+            sessionStorage.setItem('formSubmitted', 'true');
+        }
+    }
+
+    function resetFormSubmissionFlag() {
+        sessionStorage.removeItem('formSubmitted');
+    }
+
+    window.onload = showSuccessMessage;
 });

@@ -10,6 +10,28 @@ body {
     background-color: #ffffff;
 }
 
+.success-message {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.success-message__img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
 .main-page {
     width: 100%;
     height: 863px;
@@ -261,6 +283,10 @@ body {
     font-size: 16px;
 }
 
+.about-us__content-p3{
+    margin-top: 20px;
+}
+
 .about-us__content-points {
     display: flex;
     flex-direction: column;
@@ -290,8 +316,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 46px;
     font-weight: 800;
-    width: 255px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     padding-top: 50px;
 }
 

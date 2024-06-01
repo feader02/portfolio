@@ -1,5 +1,6 @@
 {
     "En": {
+        "Success-message": "Success!",
         "About": "About",
         "Services": "Services",
         "Our Works": "Our Works",
@@ -38,14 +39,21 @@
         "how-we-work__point-h1-4": "Ready Website",
         "how-we-work__point-p-4": "Within 10 days, you receive a ready website",
         "ready-website__content-h1": "Amazing Website Ready in 10 Days",
-        "ready-website__content-p": "Thanks to the use of the most modern technologies in development and streamlined flow, we can provide you with a ready, customized and effective website of any complexity in a maximum of 10 days at a minimal cost."
-
-
-
-
-
+        "ready-website__content-p": "Thanks to the use of the most modern technologies in development and streamlined flow, we can provide you with a ready, customized and effective website of any complexity in a maximum of 10 days at a minimal cost.",
+        "fullNamePlaceholder": "Enter your full name*",
+        "phoneNumberPlaceholder": "Enter your phone number",
+        "emailPlaceholder": "Enter your e-mail*",
+        "Get a Quote": "Get a Quote",
+        "contacts-content__h1": "Contacts",
+        "contacts-content__p": "We're always ready to discuss your project! Fill out the form or contact us directly:",
+        "contacts-content__point-h1": "Hours",
+        "contacts-content__point-p": "Monday-Sunday: all day",
+        "footer-top-content__p": "Web development, design and more",
+        "footer-bottom-content-p1": "© Created by Feader",
+        "footer-bottom-content-p2": "All rights Reserved"
     },
     "Ua": {
+        "Success-message": "Успішно!",
         "About": "Про нас",
         "Services": "Послуги",
         "Our Works": "Наші роботи",
@@ -67,7 +75,7 @@
         "grid-6-text": "API розробки дозволяють інтеграцію та взаємодію між програмними додатками, покращуючи функціональність та зв’язок.",
         "About Us": "Про Нас",
         "about-us__content-p1": "Ми перетворюємо веб-розробку та дизайн на ефективне рішення для потреб вашого бізнесу",
-        "about-us__content-p2": "Завдяки нашому багатому досвіду та технологічним можливостям ми можемо розробити для вас яскравий, ефективний сайт із сучасним дизайном. Крім того, ми надаємо всі пов’язані послуги цифрового маркетингу.",
+        "about-us__content-p2": "Завдяки досвіду і технологіям розробимо ефективний сайт з сучасним дизайном та надамо послуги цифрового маркетингу.",
         "about-us__content-p2-2": "Все, що вам потрібно, це розповісти нам про свій бізнес, продукти та послуги. Решту залиште нашим спеціалістам. Працюючи з нами, Ви отримуєте:",
         "about-us__content-point-1": "Всі налаштування під ключ",
         "about-us__content-point-2": "Цілодобова післяпродажна підтримка. Чудові веб-сайти за 10 днів",
@@ -84,8 +92,17 @@
         "how-we-work__point-h1-4": "Готовий Сайт",
         "how-we-work__point-p-4": "Протягом 10 днів ви отримуєте готовий сайт",
         "ready-website__content-h1": "Чудовий веб-сайт готовий за 10 днів",
-        "ready-website__content-p": "Завдяки використанню найсучасніших технологій у розробці та налагодженій роботі, ми можемо надати вам готовий, налаштований та ефективний сайт будь-якої складності максимум за 10 днів за мінімальну вартість."
-
-
-    }
+        "ready-website__content-p": "Завдяки використанню найсучасніших технологій у розробці та налагодженій роботі, ми можемо надати вам готовий, налаштований та ефективний сайт будь-якої складності максимум за 10 днів за мінімальну вартість.",
+        "fullNamePlaceholder": "Введіть ваше повне ім'я*",
+        "phoneNumberPlaceholder": "Введіть ваш номер телефону",
+        "emailPlaceholder": "Введіть вашу електронну пошту*",
+        "Get a Quote": "Надіслати",
+        "contacts-content__h1": "Контакти",
+        "contacts-content__p": "Ми завжди готові обговорити ваш проєкт! Заповніть форму або зв'яжіться з нами безпосередньо:",
+        "contacts-content__point-h1": "Години",
+        "contacts-content__point-p": "Цілодобово",
+        "footer-top-content__p": "Веб-розробка, дизайн та інше",
+        "footer-bottom-content-p1": "© Створено Feader",
+        "footer-bottom-content-p2": "Всі права захищені"
+}
 }
